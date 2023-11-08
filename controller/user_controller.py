@@ -7,7 +7,7 @@ class UserController:
     def user_get_addOne_Controller(self):
         if request.method == 'POST':
             data = request.form
-            return user_modal().user_addOne_modal(data) ss
+            return user_modal().user_addOne_modal(data) 
         else:
             return "Invalid request method"
         

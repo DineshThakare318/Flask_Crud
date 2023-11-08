@@ -36,4 +36,4 @@ class user_modal():
             if self.cur.rowcount> 0:
              return "User deleted successfully..!!!"
             else:
-                return "Not deleted"     ss   
+                return "Not deleted"        
