@@ -7,7 +7,7 @@ app = Flask(__name__)
 user_controller = UserController()
 product_controller = ProductController()
 
-@app.route('/user/getAll',methods=["GET"])
+@app.route('/user/getAll',methods=["GET"])ss
 def getAllUSer():
     return user_controller.user_get_all_Controller()
 
